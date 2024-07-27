@@ -1,5 +1,5 @@
 const MongoDbUrl =
- "mongodb+srv://hammad:hammad770@cluster0.aeeiyou.mongodb.net/TodolistData?retryWrites=true&w=majority";
+ "mongodb://localhost:27017/TodolistData?retryWrites=true&w=majority";
 const express = require("express");
 const { connectMongoDb } = require("./connection");
 const cors = require("cors");
